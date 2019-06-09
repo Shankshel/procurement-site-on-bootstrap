@@ -1,0 +1,171 @@
+.header{
+	 background-image: url('../image/1.jpg');
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center;
+}
+
+.overlay{
+	 position: absolute;
+	 min-height: 100%;
+	 min-width: 100%;
+	 left: 0;
+	 top: 0;
+	 background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    padding: 1em;
+}
+
+.description h1{
+ 	color:#F97300;
+ 	width: 70%;
+ 	font-family: 'Arial';
+ 	font-weight: bold;
+}
+.description p{
+	 color:#666;
+	 font-size: 20px;
+	 font-family: 'Arial'
+	 width: 90%;
+}
+
+.works{
+ 	margin: 4em;
+    position: relative; 
+}
+.works h1{
+	 color:#F97300;
+	 margin: 2em; 
+}
+
+.works .card-img{
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.works .card img{
+	width: 90%;
+	height: 12em;
+}
+
+.works .card-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	box-shadow: 10px 10px 10px 0px #eee;
+}
+
+.card:hover{
+	box-shadow: 5px 5px 5px 0px #eee;
+	transition: 1s;
+}
+
+.card-header{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-header p, h5{
+	padding: 0;
+	margin: 0;
+}
+
+.card-body{
+	height: 335px;
+}
+
+.next .card-body{
+	height: 70px;
+}
+
+.next a{
+	color: #000;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.next a:hover{
+	color: #F97300;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.next{
+	margin-bottom: 1em;
+	transition: 1s;
+}
+
+.next:hover{
+	background-color: #fff;
+	transition: 1s;
+	border: 1px solid #fff;
+	box-shadow: none;
+}
+
+.next .card-title:hover::before{
+	content: "\"";
+	transition: 1s;
+}
+
+.next .card-title:hover::after{
+	content: "\"";
+	transition: 1s;
+}
+
+.box{
+	margin-bottom: 1em;
+}
+
+.p{
+	padding: 0;
+	margin: 0;
+}
+
+.allotment{
+	color:#F97300;
+}
+
+.check_mark{
+	position: relative;
+	transition: 2s;
+}
+
+.check_mark:hover{
+	transform: rotate(-120deg);
+	transition: 2s;
+}
+
+.true{
+	width: 100%;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	margin-top: 4em;
+}
+
+.works_section{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 1em;
+}
+
+.footer h1{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.footer .container{
+	margin-top: 0;
+}
